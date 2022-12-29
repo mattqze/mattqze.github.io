@@ -37,3 +37,4 @@ I'm Matt, I know C#, Python, HTML, CSS and JS.<br>I maintain and run Plex and Je
 I really enjoyed making [CLI-Calc](https://github.com/mattqze/clicalc) and it's 2 spin-off projects. ([Spin-Off 1](https://github.com/mattqze/cmdcalc) [Spin-Off 2](https://github.com/mattqze/calculator)) 
 <br>I also liked making [S2D-DL](https://github.com/mattqze/S2D-DL) Yarr!
 </details>
+BTW Torrenting is amazing and should be used more due to the download speed achievable and ease of use.
