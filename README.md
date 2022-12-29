@@ -1,6 +1,9 @@
 # MattQze
-I'm Matt, I know C#, Python, HTML, CSS and JS. Thanks for checking out my profile.
-# Computer Specs:
+I'm Matt, I know C#, Python, HTML, CSS and JS.<br>I maintain and run media servers and know my way around Windows and Linux.<br>Thanks for checking out my profile. 😁
+<details>
+  
+<summary>Computer Specs.</summary>
+  
 ## CPU ##
 ### AMD Ryzen 5 5600X ###
 #### Core Count -- 6 #### 
@@ -26,3 +29,11 @@ I'm Matt, I know C#, Python, HTML, CSS and JS. Thanks for checking out my profil
 ### Crucial P3 ###
 #### Size -- 500GB ####
 #### Speed -- 3500MB/3.5GB ####
+</details>
+
+<details>
+<summary>Favorite Projects</summary>
+  
+I really enjoyed making [CLI-Calc](https://github.com/mattqze/clicalc) and it's 2 spin-off projects. ([Spin-Off 1](https://github.com/mattqze/cmdcalc) [Spin-Off 2](https://github.com/mattqze/calculator)) 
+<br>I also liked making [S2D-DL](https://github.com/mattqze/S2D-DL) Yarr!
+</details>
