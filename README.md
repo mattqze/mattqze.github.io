@@ -1,4 +1,3 @@
-### Hi there 👋
 # MattQze
 I'm Matt, I know C#, Python, HTML, CSS and JS. Thanks for checking out my profile.
 # Computer Specs:
