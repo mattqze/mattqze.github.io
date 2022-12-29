@@ -1,5 +1,5 @@
 # MattQze
-I'm Matt, I know C#, Python, HTML, CSS and JS.<br>I maintain and run media servers and know my way around Windows and Linux.<br>Thanks for checking out my profile. 😁
+I'm Matt, I know C#, Python, HTML, CSS and JS.<br>I maintain and run Plex and Jellyfin servers and know my way around Windows and Linux.<br>Thanks for checking out my profile. 😁
 <details>
   
 <summary>Computer Specs.</summary>
