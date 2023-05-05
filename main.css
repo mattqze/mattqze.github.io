@@ -21,3 +21,17 @@ a
 {
     color:#445;
 }
+@media (prefers-color-scheme: dark) {
+    body
+{
+    color:#eee;
+    background-color:#111; 
+}
+h1,h2,h3
+{
+    color:#eee;
+}
+a{
+    color:#ddd;
+}
+  }
