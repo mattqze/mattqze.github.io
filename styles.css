@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    color:#eee;
+    background-color: #111;
+    margin-top:0px;
+    margin-left:0;
+    padding:0;
+    max-width: 100%;
+    font-family:Arial;
+}
+header{
+    margin-top:0;
+    background-color: #232323;
+    padding-top:2px;
+    padding-bottom:6px;
+    padding-left:10px;
+    padding-right:10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+p{
+    display:inline;
+    padding-left:6px;
+    padding-right:6px;
+    font-size:20px;
+    transition: 0.2s;
+    padding-top:2px;
+    padding-bottom:4px;
+}
+#hright{
+    float:right;
+    margin:0;
+    margin-left:16px;
+}
+header p:hover{
+    background-color:#333;
+    border-radius:6px;
+}
+a{
+    text-decoration: none;
+    color:#eee;
+}
+#about-section{
+    display: flex;
+    font-size:24px;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-wrap;
+    min-height:75vh;
+    flex-direction: column;
+    align-items:center;
+}
+#logo-section{
+    display: flex;
+    font-size:24px;
+    justify-content:center;
+    align-items: center;
+    white-space: pre-wrap;
+    min-height:0;
+    flex-direction: row;
+    align-items:center;
+    margin-top:-30vh;
+}
+#logo-section img{
+    margin-left:10px;
+    margin-right:10px;
+}
+#svgs{
+    filter: invert(90%);
+    transition: 0.2s;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+
+}
+#svgs:hover{
+    filter: invert(50%);
+}
