@@ -1,16 +1,48 @@
+@media (prefers-color-scheme: dark) {
+    body{
+        color:#eee;
+        background-color: #111;
+    }
+    header{
+        background-color: #232323;
+    }
+    a{
+        color:#eee;
+    }
+    header p:hover{
+        background-color:#333;
+    }
+}
+  @media (prefers-color-scheme: light) {
+    body{
+        color:#444;
+        background-color: #fff;
+    }
+    header{
+        background-color: #dfdfdf;
+        color:#444;
+    }
+    a{
+        color:#444;
+    }
+    header p:hover{
+        background-color:#919191;
+    }
+    header a:hover{
+        color:#eee;
+    }
+}
 body{
     margin:0;
-    color:#eee;
-    background-color: #111;
     margin-top:0px;
     margin-left:0;
     padding:0;
     max-width: 100%;
     font-family:Arial;
 }
+
 header{
     margin-top:0;
-    background-color: #232323;
     padding-top:2px;
     padding-bottom:6px;
     padding-left:10px;
@@ -33,12 +65,10 @@ p{
     margin-left:16px;
 }
 header p:hover{
-    background-color:#333;
     border-radius:6px;
 }
 a{
     text-decoration: none;
-    color:#eee;
 }
 #about-section{
     display: flex;
