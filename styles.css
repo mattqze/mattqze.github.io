@@ -140,7 +140,7 @@ a{
     min-height:0vh;
     flex-direction: column;
     align-items:center;
-    margin-top:5vh;
+    margin-top:-2vh;
 }
 #blog-listing{
     display: flex;
