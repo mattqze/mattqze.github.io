@@ -1,0 +1,42 @@
+<head>
+    <title>Tunnull :: Jellyfin Install</title>
+    <link rel='stylesheet' href='../styles.css'>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Tunnull's Website" />
+    <meta property="og:description" content="Tunnull - Self-Hoster & Programmer" />
+    <meta property="og:type" content="website" />
+</head>
+<header>
+    <a href='/'><p id='hleft'>home</p></a> <a href='/about'><p id='hleft'>about</p></a>  <a href='/blog'><p id='hleft'>blog</p></a> 
+</header>
+<div class="blog-text">
+<h2>What is Jellyfin?</h2>
+<p><a href='https://jellyfin.org' target='_blank'>Jellyfin</a> is a media server, like <a href='http://plex.tv' target='_blank'>Plex Media Server</a>, it hosts your content <i>(usually movies, series, music and photos)</i> and lets you access your content from any interface, from TVs to Phones.
+Unlike Plex. <a href='https://github.com/jellyfin' target='_blank'>Jellyfin is completely open source</a>, meaning all of the code that runs the apps and server is publicly available and can be modified to your tastes. <bold>This does not make Jellyfin insecure,</bold> 
+instead, Jellyfin becomes more security hardened with the help of the community surrounding Jellyfin and it's apps. Since Jellyfin runs on your local network, no data is used. Making it perfect for limited connections.</p>
+<h2 id='how-to-use-jellyfin'>How to use Jellyfin.</h2>
+<p>There are many ways to set up and use Jellyfin. I opted for <a href='https://docker.com' target='_blank'>Docker</a>, due to its ease of use and seperation from my main system. However you can install Jellyfin on Windows, Mac and Linux. Below is the command to get you started with using Jellyfin on Docker. (You must have some form of content to use Jellyfin, I will not cover ways to obtain that content here.)</p><br>
+<p>Docker Compose:</p>
+<code><pre>
+version: "3"
+services:
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin
+    container_name: jellyfin
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Miami
+    volumes:
+      - ./config:/config
+      - /path/to/media:/mediatype
+    ports:
+      - 8096:8096
+    restart: unless-stopped
+</pre>
+docker-compose up -d
+</code><br><br>
+<a href="compose-files//jellyfin/docker-compose.yml"><p>You can download the Docker Compose file here.</p></a><br>
+<p>From there, Jellyfin is quite easy to set up. All you need to do after set up is download the Jellyfin apps and enjoy your content.</p>
+</div>
